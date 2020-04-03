@@ -20,7 +20,7 @@ app.set('view engine', 'hbs');
 app.get('/', (req, res) => {
     //Renderiza(manda) el archivo 'home.hbs'
     res.render('home', {
-        nombre: 'Oscar'
+        nombre: 'Humano'
     });
 
 });
